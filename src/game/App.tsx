@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function App() {
+const App = () => {
+  const [word, setWord] = useState(null);
+  
   return (
     <div className="App">
       <header className="App-header">
