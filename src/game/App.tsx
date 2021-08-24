@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import boardJson from '../files/test-board-2.json';
+import Board from './components/Board';
 
-const App = () => {
+const App: React.FC = () => {
   const [board, setBoard] = useState<String[]>([]);
 
   const getBoard = () => {
@@ -14,9 +15,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <header className="App-header">
-        App
-      </header>
+     <Board board = {board} /> 
     </div>
   );
 }

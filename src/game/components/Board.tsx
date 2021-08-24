@@ -1,7 +1,15 @@
 import React from "react";
 
-const Board = () => {
-    return <div>Board</div>
+type Props = {
+    board: String[];
+  };
+
+const Board: React.FC<Props> = ( board ) => {
+    return (
+        <div>
+            Board
+        </div>
+    )
 };
 
 export default Board;
