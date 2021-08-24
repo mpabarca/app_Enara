@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import boardJson from '../files/test-board-2.json';
 import Board from './components/Board';
+import ResetButton from './components/ResetButton';
+import WordBox from './components/WordBox';
 
 const App: React.FC = () => {
   const [board, setBoard] = useState<string[]>([]);
@@ -15,7 +17,9 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-     <Board board = {board} /> 
+      <Board board = {board} /> 
+      <WordBox />
+      <ResetButton />
     </div>
   );
 }
