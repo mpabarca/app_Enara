@@ -1,13 +1,17 @@
 import React from "react";
+import Tile from "./Tile";
 
 type Props = {
-    board: String[];
-  };
+    board: string[];
+};
 
-const Board: React.FC<Props> = ( board ) => {
+const Board: React.FC<Props> = ({ board }) => {
+    
     return (
         <div>
-            Board
+            {board.map(letter => (
+                <Tile letter = {letter} />
+            ))}
         </div>
     )
 };
