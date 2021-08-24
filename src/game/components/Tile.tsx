@@ -7,7 +7,7 @@ type Props = {
 const Tile: React.FC<Props> = ({ letter }) => {
 
     return (
-        <div>
+        <div className="col-3">
             {letter}
         </div>
     )
