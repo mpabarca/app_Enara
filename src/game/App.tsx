@@ -28,7 +28,7 @@ const App: React.FC = () => {
     <div className="App d-flex flex-row flex-wrap justify-content-center align-items-center">
       <Board board = {board} validWord={validWord} reloadBoard={reloadBoard} /> 
       <div className="d-flex flex-column justify-content-between desktop info-board">
-        <ResetButton validWord={validWord} setReloadBoard = {setReloadBoard}/>
+        <ResetButton setReloadBoard = {setReloadBoard}/>
         <WordBox validWord={validWord} setValidWord={setValidWord} />
       </div>
     </div>
