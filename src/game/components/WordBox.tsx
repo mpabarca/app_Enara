@@ -3,21 +3,22 @@ import { useSelector, shallowEqual } from "react-redux";
 import { RootState } from "../state/reducers";
 import dictionary from '../../files/dictionary.json';
 
-const WordBox = () => {
-    const [validWord, setValidWord] = useState<boolean>(false);
+type Props = {
+    validWord: boolean;
+    setValidWord: React.Dispatch<React.SetStateAction<any>>;
+};
+
+const WordBox: React.FC<Props> = ({ validWord, setValidWord }) => {
     const [clickedWord, setClickedWord] = useState<boolean>(false);
 
     const word = useSelector((state: RootState) => state.word, shallowEqual);
 
-    const validateWord = () => {
-        return dictionary.words.includes(word.toLowerCase());
-    };
-
     useEffect(() => {
-        setValidWord(validateWord());
+        setValidWord(dictionary.words.includes(word.toLowerCase()));
+
         if(word !== "" && word !== undefined && word !== null) setClickedWord(true);
         else setClickedWord(false);
-      },[word]);
+      },[word, setValidWord]);
 
     return (
         <div className="col-12 d-flex justify-content-between align-items-center word-box">

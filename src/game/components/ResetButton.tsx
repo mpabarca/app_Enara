@@ -5,9 +5,10 @@ import { actionCreators } from "../state";
 
 type Props = {
     setReloadBoard: any;
+    validWord?: boolean;
 };
 
-const ResetButton: React.FC<Props> = ({ setReloadBoard }) => {
+const ResetButton: React.FC<Props> = ({ setReloadBoard, validWord }) => {
 
     const dispatch = useDispatch();
     const { resetWord } = bindActionCreators(actionCreators, dispatch);
