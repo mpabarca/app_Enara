@@ -24,10 +24,12 @@ const App: React.FC = () => {
   }, [reloadBoard]);
 
   return (
-    <div className="App">
+    <div className="App d-flex flex-row flex-wrap justify-content-center align-self-center">
       <Board board = {board} /> 
-      <WordBox />
-      <ResetButton setReloadBoard = {setReloadBoard}/>
+      <div className="d-flex flex-column justify-content-between info-board">
+        <ResetButton setReloadBoard = {setReloadBoard}/>
+        <WordBox />
+      </div>
     </div>
   );
 }
