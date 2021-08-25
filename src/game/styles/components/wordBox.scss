@@ -14,4 +14,15 @@
     &.correct {
         color: $font-green;
     }
+    p {
+        font-size: 15px;
+        letter-spacing: normal;
+        font-weight: 300;
+        &.wrong {
+            color: $font-pink;
+        }
+        &.correct {
+            color: $font-light-green;
+        }
+    }
 }
