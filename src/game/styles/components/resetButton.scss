@@ -1,0 +1,15 @@
+.reset-button {
+    p {
+        font-size: 15px;
+        color: $light-grey;
+        margin-right: 1rem;
+        text-align: center;
+    }
+    button.btn-close{
+        background-color: $light-grey;
+        width: 1px;
+        height: 1px;
+        border-radius: 50px;
+        padding: 15px;
+    }
+}

@@ -19,9 +19,9 @@ const ResetButton: React.FC<Props> = ({ setReloadBoard }) => {
     };
 
     return (
-        <div className="col-12 d-flex flex-row justify-content-end reset-button">
-            <p>Clear word</p>
-            <button type="button" className="btn-close" aria-label="Close" onClick={e => handleButton(e)} />
+        <div className="col-12 d-flex flex-row justify-content-end align-items-center reset-button">
+            <p>clear word</p>
+            <button type="button" className="btn-close btn-close-white" aria-label="Close" onClick={e => handleButton(e)} />
         </div>
     )
 };
