@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# Show Git Commits
+This app reacreate de famous game Alphabet Soup: an early childhood game for Learning the Alphabet.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Built With
+
+This project was built with 
+* [Create React App](https://github.com/facebook/create-react-app)
+* [Typescript](https://www.typescriptlang.org/)
+* [Bootstrap](https://getbootstrap.com)
+* [Sass](https://sass-lang.com/)
+* [Redux] (https://es.redux.js.org/)
+* [Redux-thunk](https://github.com/reduxjs/redux-thunk)
 
 ## Available Scripts
 
@@ -13,34 +22,21 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
-### `npm run build`
+## Deployment
+> To run this App its important to run the server and the view at the same time on differents consoles. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Instructions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Fork this Repository
+* Clone your forked repository
+* Install all the dependencies with `npm i`
+* Run the app using `npm start`
+* The app are going to redirect you to `http://localhost:3000` where is the game
+* Select the tile with the letter that you gonna use to create the word by clicking them
+* Use the box at bottom of the board, to visualize the word formed by the selected tiles
+* Use the button ( X ) at the top of the board to reset the board, this action are gonna deselecting all tiles and clearing the word to start again.
+* Use the box section to know if the created word is valid or invalid on our dictionary data base.
