@@ -11,7 +11,7 @@
         font-size: 30px;
         font-weight: 700;
         text-shadow: -2px -2px 5px rgba(198,140,86,255);
-        &:hover {
+        &:hover, &:active, &:focus {
             color: #FFF;
         }
         &.wrong {
