@@ -9,7 +9,7 @@ This project was built with
 * [Typescript](https://www.typescriptlang.org/)
 * [Bootstrap](https://getbootstrap.com)
 * [Sass](https://sass-lang.com/)
-* [Redux] (https://es.redux.js.org/)
+* [Redux](https://es.redux.js.org/)
 * [Redux-thunk](https://github.com/reduxjs/redux-thunk)
 
 ## Available Scripts
@@ -34,7 +34,7 @@ Launches the test runner in the interactive watch mode.
 
 * Fork this Repository
 * Clone your forked repository
-* Install all the dependencies with `npm i`
+* Install all the dependencies with `npm install`
 * Run the app using `npm run start`
 * The app are going to redirect you to `http://localhost:3000` where is the game
 * Select the tile with the letter that you gonna use to create the word by clicking them
