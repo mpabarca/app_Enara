@@ -1,23 +1,27 @@
 .word-box {
+    padding: 1rem;
+    height: 70px;
     background-color: #FFF;
     border: 3px solid $grey;
-    height: 70px;
     margin-bottom: .5rem;
-    font-size: 30px;
-    font-weight: 700;
-    color: $grey;
-    letter-spacing: 10px;
-    padding: 1rem;
-    &.wrong {
-        color: $font-red;
-    }
-    &.correct {
-        color: $font-green;
+    h4 {
+        font-size: 30px;
+        font-weight: 700;
+        color: $grey;
+        letter-spacing: 10px;
+        margin: 0;
+        &.wrong {
+            color: $font-red;
+        }
+        &.correct {
+            color: $font-green;
+        }
     }
     p {
         font-size: 15px;
         letter-spacing: normal;
         font-weight: 300;
+        margin: 0;
         &.wrong {
             color: $font-pink;
         }
