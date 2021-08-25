@@ -28,7 +28,7 @@ const App: React.FC = () => {
   }, [reloadBoard]);
 
   return (
-    <div className="App">
+    <div className="App d-flex justify-content-center align-item-center">
       {width > breakpoint ? (
         <Desktop 
           board = {board} 
