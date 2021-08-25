@@ -29,3 +29,14 @@
         }
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .app-mobile {
+        .tile{
+            button {
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+};

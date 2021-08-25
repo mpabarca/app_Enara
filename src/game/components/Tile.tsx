@@ -32,7 +32,7 @@ const Tile: React.FC<Props> = ({ letter, validWord, reloadBoard }) => {
 
     return (
         <div className="d-flex justify-content-center align-self-center col-3 tile">
-            <button type="button" className={clicked ? addClassClicked() : "btn btn-warning"} onClick={e => handleClick(e)}>
+            <button type="button" className={clicked ? addClassClicked() : "btn btn-warning "} onClick={e => handleClick(e)}>
                 {letter}
             </button>
         </div>

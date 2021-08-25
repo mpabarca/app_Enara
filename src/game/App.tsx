@@ -29,7 +29,7 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      {width < breakpoint ? (
+      {width > breakpoint ? (
         <Desktop 
           board = {board} 
           validWord={validWord} 

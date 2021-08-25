@@ -13,3 +13,15 @@
         padding: 15px;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .app-mobile {
+        .reset-button{
+            width: 290px;
+            margin: 2rem 0;
+            button.btn-close {
+                padding: 20px;
+            }
+        }
+    }
+};

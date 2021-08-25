@@ -15,7 +15,7 @@ const Mobile: React.FC<Props> = (Props) => {
     const { board, reloadBoard, setReloadBoard, validWord, setValidWord } = Props;
 
     return (
-        <div className="app-mobile d-flex flex-row flex-wrap justify-content-center align-items-center">
+        <div className="app-mobile d-flex flex-column flex-wrap justify-content-center align-items-center">
             <ResetButton setReloadBoard = {setReloadBoard}/>
             <Board board = {board} validWord={validWord} reloadBoard={reloadBoard} /> 
             <WordBox validWord={validWord} setValidWord={setValidWord} />
