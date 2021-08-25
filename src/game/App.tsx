@@ -24,7 +24,7 @@ const App: React.FC = () => {
   }, [reloadBoard]);
 
   return (
-    <div className="App d-flex flex-row flex-wrap justify-content-center align-self-center">
+    <div className="App d-flex flex-row flex-wrap justify-content-center align-items-center">
       <Board board = {board} /> 
       <div className="d-flex flex-column justify-content-between info-board">
         <ResetButton setReloadBoard = {setReloadBoard}/>

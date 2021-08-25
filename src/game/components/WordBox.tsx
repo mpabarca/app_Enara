@@ -6,7 +6,7 @@ const WordBox = () => {
     const state = useSelector((state: RootState) => state.word);
 
     return (
-        <div className="col-12 alert alert-dark word-box" role="alert">
+        <div className="col-12 d-flex justify-content-start align-items-center word-box">
             {state}
         </div>
     )

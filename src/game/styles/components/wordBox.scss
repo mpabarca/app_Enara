@@ -1,0 +1,16 @@
+.word-box {
+    background-color: #FFF;
+    border: 3px solid $grey;
+    height: 70px;
+    margin-bottom: .5rem;
+    font-size: 30px;
+    font-weight: 700;
+    color: $grey;
+    padding: 1rem;
+    &.wrong {
+        color: $font-red;
+    }
+    &.correct {
+        color: $font-green;
+    }
+}
