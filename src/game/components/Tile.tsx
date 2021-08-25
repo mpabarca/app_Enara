@@ -13,7 +13,7 @@ const Tile: React.FC<Props> = ({ letter }) => {
     const { addLetter } = bindActionCreators(actionCreators, dispatch);
 
     return (
-        <div className="col-3">
+        <div className="col-3 tile">
             <button type="button" className="btn btn-warning" onClick={() => addLetter(letter)}>
                 {letter}
             </button>

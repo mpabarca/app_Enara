@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+$dark-red: #a80c23; //border color bottom tile - WRONG ademas del border es background CLICKED
+$light-red: #ec4c59; //border color top tile - WRONG ademas del border es background CLICKED
+
+$dark-green: #4c7c24; // CORRECT background color bottom tile CLICKED
+$light-green:#a8e34c; // CORRECT background color top tile CLICKED
+
+$font-red: #d0021b; //WRONG - color font letter in wordbox
+$font-pink: #f4bfc5; //WRONG - color font valid/invalid wordbox
+
+$font-green: #7ed321; //CORRECT - color font letter in wordbox
+$font-light-green: #cedbbe; //CORRECT - color font valid/invalid wordbox
+
+$dark-orange: #f79034; //background color bottom tile
+$light-orange: #facf5b; //background color top tile
+
+$light-grey:#d8d8d8; //button reset
+$grey: #a69590; //border wordbox
+
+$background-color-base: #FFFFFF;
+$font-family: 'Roboto', Sans-Serif;
+
+$border-radius: Max(0px, Min(8px, calc((100vw - 4px - 100%) * 9999))) / 8px;

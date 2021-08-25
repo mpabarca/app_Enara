@@ -8,7 +8,7 @@ type Props = {
 const Board: React.FC<Props> = ({ board }) => {
     
     return (
-        <div className="d-flex flex-row flex-wrap">
+        <div className="d-flex flex-row flex-wrap board">
             {board.map(letter => (
                 <Tile letter = {letter} />
             ))}
