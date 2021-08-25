@@ -6,6 +6,7 @@ import WordBox from './components/WordBox';
 
 const App: React.FC = () => {
   const [board, setBoard] = useState<string[]>([]);
+  const [reloadBoard, setReloadBoard] = useState<boolean>(false);
 
   const getBoard = () => {
     return boardJson.board.sort(() => { return Math.random() - 0.5 });
@@ -15,11 +16,18 @@ const App: React.FC = () => {
     setBoard(getBoard());
   }, []);
 
+  useEffect(() => {
+    if(reloadBoard) { 
+      setBoard(getBoard());
+      setReloadBoard(false);
+    }
+  }, [reloadBoard]);
+
   return (
     <div className="App">
       <Board board = {board} /> 
       <WordBox />
-      <ResetButton />
+      <ResetButton setReloadBoard = {setReloadBoard}/>
     </div>
   );
 }
