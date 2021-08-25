@@ -1,4 +1,4 @@
-# Show Git Commits
+# Alphabet Soup
 This app reacreate de famous game Alphabet Soup: an early childhood game for Learning the Alphabet.
 
 ### Built With
