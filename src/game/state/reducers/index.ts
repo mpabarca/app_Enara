@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import { wordReducer } from './wordReducers';
+import wordReducer from './wordReducer';
 
 const reducers = combineReducers({
     word: wordReducer

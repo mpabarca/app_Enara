@@ -3,7 +3,7 @@ import { ActionType } from "../action-types";
 
 const initialState = "";
 
-export const wordReducer = (state: string = initialState, action: Action): string => {
+const reducer = (state: string = initialState, action: Action): string => {
     switch (action.type){
         case ActionType.ADD_LETTER: 
             return state + action.payload;
@@ -13,3 +13,5 @@ export const wordReducer = (state: string = initialState, action: Action): strin
             return state;
     }
 };
+
+export default reducer;
