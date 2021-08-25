@@ -5,6 +5,7 @@ This app reacreate de famous game Alphabet Soup: an early childhood game for Lea
 
 This project was built with 
 * [Create React App](https://github.com/facebook/create-react-app)
+* [Hooks](https://reactjs.org/docs/hooks-intro.html)
 * [Typescript](https://www.typescriptlang.org/)
 * [Bootstrap](https://getbootstrap.com)
 * [Sass](https://sass-lang.com/)
@@ -15,7 +16,7 @@ This project was built with
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -34,7 +35,7 @@ Launches the test runner in the interactive watch mode.
 * Fork this Repository
 * Clone your forked repository
 * Install all the dependencies with `npm i`
-* Run the app using `npm start`
+* Run the app using `npm run start`
 * The app are going to redirect you to `http://localhost:3000` where is the game
 * Select the tile with the letter that you gonna use to create the word by clicking them
 * Use the box at bottom of the board, to visualize the word formed by the selected tiles
