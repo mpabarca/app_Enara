@@ -11,7 +11,7 @@
         font-size: 30px;
         font-weight: 700;
         text-shadow: -2px -2px 5px rgba(198,140,86,255);
-        &:hover, &:active, &:focus {
+        &:hover, &:active, &:focus, &.btn-warning:disabled, &.btn-warning.disabled {
             color: #FFF;
         }
         &.wrong {
@@ -26,6 +26,9 @@
             &:hover{
                 border: 3px solid transparent;
             }
+        }
+        &.btn:disabled, &.btn.disabled {
+            opacity: 1;
         }
     }
 }
