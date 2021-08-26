@@ -29,8 +29,8 @@ You will also see any lint errors in the console.
 
 * Fork this Repository
 * Clone your forked repository
-* Install all the dependencies with `npm install`
-* Run the app using `npm run start`
+* Install all the dependencies with `npm install` in terminal
+* Run the app using `npm run start` in terminal
 * The app are going to redirect you to `http://localhost:3000` where is the game
 * Select the tile with the letter that you gonna use to create the word by clicking them
 * Use the box at bottom of the board, to visualize the word formed by the selected tiles
