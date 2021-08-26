@@ -25,11 +25,13 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 ## Deployment
 
+> To run this App its important to install [NodeJS](https://nodejs.org/en/) to use NPM commands and a Bash terminal to run the app like [Git Bash](https://git-scm.com/downloads)
+
 ### Instructions
 
 * Fork this Repository
 * Clone your forked repository
-* Install all the dependencies with `npm install` in terminal
+* Install all the dependencies with `npm install` in terminal [i.e Git Bash]
 * Run the app using `npm run start` in terminal
 * The app are going to redirect you to `http://localhost:3000` where is the game
 * Select the tile with the letter that you gonna use to create the word by clicking them
