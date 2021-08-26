@@ -27,6 +27,9 @@
                 border: 3px solid transparent;
             }
         }
+        &.btn-warning:disabled, &.btn-warning.disabled {
+            border: none;
+        }
         &.btn:disabled, &.btn.disabled {
             opacity: 1;
         }
