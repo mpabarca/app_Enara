@@ -25,7 +25,7 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 ## Deployment
 
-> To run this App its important to install [NodeJS](https://nodejs.org/en/) to use NPM commands and a Bash terminal to run the app like [Git Bash](https://git-scm.com/downloads)
+> To run this App its important to install [NodeJS](https://nodejs.org/en/) to use NPM commands and a Bash terminal like [Git Bash](https://git-scm.com/downloads)
 
 ### Instructions
 
